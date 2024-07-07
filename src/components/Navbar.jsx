@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.png';
-import { navItems } from '../constants/index';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -19,16 +19,23 @@ const Navbar = () => {
             <span className='text-xl tracking-tight font-bold'>Saketh Donepudi</span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
-            {navItems.map((item, index) => (
-              <li key={index}>
-                <a href={item.href} className='hover:text-orange-500 transition-colors'>{item.label}</a>
-              </li>
-            ))}
+            <li>
+              <Link to="home" smooth={true} duration={500} className='cursor-pointer hover:text-orange-500 transition-colors'>Home</Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} duration={500} className='cursor-pointer hover:text-orange-500 transition-colors'>About</Link>
+            </li>
+            <li>
+              <Link to="projects" smooth={true} duration={500} className='cursor-pointer hover:text-orange-500 transition-colors'>Projects</Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} duration={500} className='cursor-pointer hover:text-orange-500 transition-colors'>Contact</Link>
+            </li>
           </ul>
           <div className='hidden lg:flex justify-center space-x-12 items-center'>
-            <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-3 rounded-md shadow-lg hover:shadow-xl transition-shadow'>
+            <Link to="contact" smooth={true} duration={500} className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-3 rounded-md shadow-lg hover:shadow-xl transition-shadow cursor-pointer'>
               Contact Me
-            </a>
+            </Link>
           </div>
           <div className='flex lg:hidden'>
             <button onClick={toggleNavbar} className='focus:outline-none'>
@@ -39,16 +46,23 @@ const Navbar = () => {
         {mobileDrawerOpen && (
           <div className="fixed inset-0 z-20 bg-neutral-900 bg-opacity-95 p-12 flex flex-col justify-center items-center lg:hidden">
             <ul className='space-y-6'>
-              {navItems.map((item, index) => (
-                <li key={index} className='py-3'>
-                  <a href={item.href} className='text-white text-lg hover:text-orange-500 transition-colors'>{item.label}</a>
-                </li>
-              ))}
+              <li>
+                <Link to="home" smooth={true} duration={500} className='cursor-pointer text-white text-lg hover:text-orange-500 transition-colors' onClick={toggleNavbar}>Home</Link>
+              </li>
+              <li>
+                <Link to="about" smooth={true} duration={500} className='cursor-pointer text-white text-lg hover:text-orange-500 transition-colors' onClick={toggleNavbar}>About</Link>
+              </li>
+              <li>
+                <Link to="projects" smooth={true} duration={500} className='cursor-pointer text-white text-lg hover:text-orange-500 transition-colors' onClick={toggleNavbar}>Projects</Link>
+              </li>
+              <li>
+                <Link to="contact" smooth={true} duration={500} className='cursor-pointer text-white text-lg hover:text-orange-500 transition-colors' onClick={toggleNavbar}>Contact</Link>
+              </li>
             </ul>
             <div className='mt-8'>
-              <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md shadow-lg hover:shadow-xl transition-shadow'>
+              <Link to="contact" smooth={true} duration={500} className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md shadow-lg hover:shadow-xl transition-shadow cursor-pointer' onClick={toggleNavbar}>
                 Contact Me
-              </a>
+              </Link>
             </div>
           </div>
         )}
