@@ -9,10 +9,10 @@ const Contact = () => {
       <p className="mt-6 text-lg text-center text-neutral-400 max-w-4xl mx-auto leading-relaxed">
         Feel free to reach out to me through any of the platforms below. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
       </p>
-      <div className="mt-12 flex flex-col items-center space-y-8">
+      <div className="mt-12 flex flex-row flex-wrap justify-center space-x-8">
         <a href="mailto:sakethdonepudi08@gmail.com" className="flex items-center space-x-4 text-lg text-neutral-400 hover:text-orange-500 transition-colors">
           <FaEnvelope size={30} />
-          <span>sakethdonepudi08@gmail.com</span>
+          <span>Email</span>
         </a>
         <a href="https://t.me/bhoomshanker" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 text-lg text-neutral-400 hover:text-orange-500 transition-colors">
           <FaTelegramPlane size={30} />

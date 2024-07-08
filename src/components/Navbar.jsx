@@ -32,11 +32,11 @@ const Navbar = () => {
               <Link to="contact" smooth={true} duration={500} className='cursor-pointer text-white hover:text-orange-500 transition-colors hover:scale-105'>Contact</Link>
             </li>
           </ul>
-          <div className='hidden lg:flex justify-center space-x-12 items-center'>
+          {/* <div className='hidden lg:flex justify-center space-x-12 items-center'>
             <Link to="contact" smooth={true} duration={500} className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md shadow-lg hover:shadow-xl transition-shadow cursor-pointer hover:scale-105'>
               Contact Me
             </Link>
-          </div>
+          </div> */}
           <div className='flex lg:hidden'>
             <button onClick={toggleNavbar} className='focus:outline-none'>
               {mobileDrawerOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
@@ -60,9 +60,9 @@ const Navbar = () => {
               </li>
             </ul>
             <div className='mt-8'>
-              <Link to="contact" smooth={true} duration={500} className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md shadow-lg hover:shadow-xl transition-shadow cursor-pointer hover:scale-105' onClick={toggleNavbar}>
+              {/* <Link to="contact" smooth={true} duration={500} className='bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md shadow-lg hover:shadow-xl transition-shadow cursor-pointer hover:scale-105' onClick={toggleNavbar}>
                 Contact Me
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}
