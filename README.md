@@ -10,7 +10,8 @@ Welcome to my personal portfolio website repository! Here you'll find the source
 
 ## 📸 Preview
 
-![image](https://github.com/sakethdonepudi/webpage/assets/94643857/59d3efde-bbcf-4001-a31b-9bcb1970b68e)
+![image](https://github.com/sakethdonepudi/webpage/assets/94643857/665067c8-a3b5-4717-81e0-d5de83b439c4)
+
 
 
 ## 📚 Table of Contents
