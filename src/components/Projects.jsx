@@ -27,9 +27,9 @@ const Projects = () => {
       title: 'Real Estate Marketplace',
       image: project3,
       description: 'This is a brief description of Project Three, highlighting its features and technologies used.',
-      tech: [<FaReact size={24} />, <FaHtml5 size={24} />, <FaCss3Alt size={24} />, <SiTailwindcss size={24} />],
-      githubLink: 'https://github.com/yourprofile/project3',
-      liveDemo: 'https://realestatesaketh.netlify.app/',
+      tech: [<FaReact size={24} />,<SiJavascript size={24} />,  <SiTailwindcss size={24} />],
+      githubLink: 'https://github.com/sakethdonepudi/RealEstate420',
+      liveDemo: 'https://real-estate420.vercel.app/',
     },
   ];
 
