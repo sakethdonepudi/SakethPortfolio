@@ -23,7 +23,7 @@ const Home = () => {
         className='rounded-full w-48 h-48 object-cover mb-4 border-4 border-orange-500 shadow-lg' 
       />
       <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide text-white'>
-        Holla👋, I'm Saketh Donepudi,
+        Hola👋, I'm Saketh Donepudi,
       </h1>
       <span className='text-4xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text mt-4 transition-colors'>
         {titles[currentTitleIndex]}
