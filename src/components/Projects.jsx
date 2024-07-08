@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'My Todo',
       image: project1,
-      description: 'This is a brief description of Project One, highlighting its features and technologies used.',
+      description: 'This groovy tool, built with React and styled with Tailwind CSS, keeps your tasks in check while you groove through your day.',
       tech: [<FaReact size={24} />, <SiJavascript size={24} />, <SiTailwindcss size={24} />],
       githubLink: 'https://github.com/sakethdonepudi/MyTodo',
       liveDemo: 'https://sakethtodo.netlify.app/',
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: 'Pizza Store',
       image: project2,
-      description: 'This is a brief description of Project Two, highlighting its features and technologies used.',
+      description: 'Crafted with the latest web technologies, this app offers a fast and user-friendly way to satisfy your pizza cravings.',
       tech: [<FaReact size={24} />, <FaHtml5 size={24} />, <FaCss3Alt size={24} />, <FaNodeJs size={24} />],
       githubLink: 'https://github.com/sakethdonepudi/pizzastore',
       liveDemo: 'https://pizzastore420.netlify.app/',
@@ -26,8 +26,8 @@ const Projects = () => {
     {
       title: 'Real Estate Marketplace',
       image: project3,
-      description: 'This is a brief description of Project Three, highlighting its features and technologies used.',
-      tech: [<FaReact size={24} />,<SiJavascript size={24} />,  <SiTailwindcss size={24} />],
+      description: 'This sleek web app, built with React and styled with Tailwind CSS, provides a seamless and visually appealing way to manage your real estate needs.',
+      tech: [<FaReact size={24} />,<SiJavascript size={24} />, <FaHtml5 size={24} />, <FaCss3Alt size={24} />,  <SiTailwindcss size={24} />],
       githubLink: 'https://github.com/sakethdonepudi/RealEstate420',
       liveDemo: 'https://real-estate420.vercel.app/',
     },
