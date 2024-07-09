@@ -4,18 +4,13 @@ Welcome to my personal portfolio website repository! Here you'll find the source
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React
-- **Styling**: TailwindCSS
-- **Deployment**: Netlify
+- **Frontend**: ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- **Styling**: ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- **Deployment**: ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ## 📸 Preview
 
-💻(https://sakethdonepudi.vercel.app/)
-
-
-![image](https://github.com/sakethdonepudi/webpage/assets/94643857/665067c8-a3b5-4717-81e0-d5de83b439c4)
-
-
+[![Portfolio Preview](https://github.com/sakethdonepudi/webpage/assets/94643857/665067c8-a3b5-4717-81e0-d5de83b439c4)](https://sakethdonepudi.vercel.app/)
 
 ## 📚 Table of Contents
 
@@ -27,6 +22,7 @@ Welcome to my personal portfolio website repository! Here you'll find the source
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Learn More](#learn-more)
 
 ## 🔍 About
 
@@ -75,7 +71,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## ⚙️ Installation
 
@@ -119,7 +115,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Saketh Donepudi - [LinkedIn](https://linkedin.com/in/sakethdonepudi) - [Email](mailto:sakethdonepudi@example.com)
+Saketh Donepudi - [LinkedIn](https://linkedin.com/in/sakethdonepudi) - [Email](mailto:sakethdonepudi08@gmail.com)
 
 Project Link: [https://github.com/sakethdonepudi/portfolio-website](https://github.com/sakethdonepudi/portfolio-website)
 
@@ -128,4 +124,3 @@ Project Link: [https://github.com/sakethdonepudi/portfolio-website](https://gith
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
